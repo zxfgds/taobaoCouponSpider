@@ -1,6 +1,10 @@
 ##版本需求
 python 2.7,php7.1,mysql5.7
 
+##简要说明
+* spider目录下为采集程序
+* admin-php.7z 为简单的后台管理;laravel框架搭建;[laravel说明文档](https://docs.golaravel.com/docs/5.6/installation/ "laravel说明文档")
+
 ##安装步骤
 * 安装 mongodb
   * ubuntu debian 请运行  : apt install mongodb
@@ -54,7 +58,10 @@ python 2.7,php7.1,mysql5.7
 
 
 
-
+## 建议
+采集程序后台运行
+	* nohup python start.py &
+	* 建议采用 supervisor 进行后台运行;[supervisor说明文档](https://github.com/Supervisor/supervisor)
 
 
 
