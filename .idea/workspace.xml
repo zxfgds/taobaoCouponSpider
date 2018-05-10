@@ -1,7 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5f1585e-fcd9-4f4f-aef7-a6351bd21f52" name="Default" comment="" />
+    <list default="true" id="f5f1585e-fcd9-4f4f-aef7-a6351bd21f52" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/taobaoCouponSpider.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/apiSpider.py" afterPath="$PROJECT_DIR$/apiSpider.py" />
+      <change beforePath="$PROJECT_DIR$/checkCoupon.py" afterPath="$PROJECT_DIR$/checkCoupon.py" />
+      <change beforePath="$PROJECT_DIR$/config.py" afterPath="$PROJECT_DIR$/config.py" />
+      <change beforePath="$PROJECT_DIR$/getItemsApi.py" afterPath="$PROJECT_DIR$/getItemsApi.py" />
+      <change beforePath="$PROJECT_DIR$/saveItems.py" afterPath="$PROJECT_DIR$/saveItems.py" />
+      <change beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
+      <change beforePath="$PROJECT_DIR$/shz_appkey.sql" afterPath="$PROJECT_DIR$/shz_appkey.sql" />
+      <change beforePath="$PROJECT_DIR$/shz_item_info.sql" afterPath="$PROJECT_DIR$/shz_item_info.sql" />
+      <change beforePath="$PROJECT_DIR$/shz_tbcates.sql" afterPath="$PROJECT_DIR$/shz_tbcates.sql" />
+      <change beforePath="$PROJECT_DIR$/top/__init__.py" afterPath="$PROJECT_DIR$/top/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/__init__.py" afterPath="$PROJECT_DIR$/top/api/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/base.py" afterPath="$PROJECT_DIR$/top/api/base.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/AppipGetRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/AppipGetRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/AreasGetRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/AreasGetRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/FilesGetRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/FilesGetRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/HttpdnsGetRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/HttpdnsGetRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/JuItemsSearchRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/JuItemsSearchRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/KfcKeywordSearchRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/KfcKeywordSearchRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/OpenuidChangeRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/OpenuidChangeRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/OpenuidGetBymixnickRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/OpenuidGetBymixnickRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/OpenuidGetBytradeRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/OpenuidGetBytradeRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/OpenuidGetRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/OpenuidGetRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TbkCouponGetRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TbkCouponGetRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TbkDgItemCouponGetRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TbkDgItemCouponGetRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TbkDgMaterialOptionalRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TbkDgMaterialOptionalRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TbkDgNewuserOrderGetRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TbkDgNewuserOrderGetRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TbkItemGetRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TbkItemGetRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TbkItemInfoGetRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TbkItemInfoGetRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TbkItemRecommendGetRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TbkItemRecommendGetRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TbkJuTqgGetRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TbkJuTqgGetRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TbkScMaterialOptionalRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TbkScMaterialOptionalRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TbkScNewuserOrderGetRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TbkScNewuserOrderGetRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TbkShopGetRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TbkShopGetRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TbkShopRecommendGetRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TbkShopRecommendGetRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TbkSpreadGetRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TbkSpreadGetRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TbkTpwdCreateRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TbkTpwdCreateRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TbkUatmEventGetRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TbkUatmEventGetRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TbkUatmEventItemGetRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TbkUatmEventItemGetRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TbkUatmFavoritesGetRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TbkUatmFavoritesGetRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TbkUatmFavoritesItemGetRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TbkUatmFavoritesItemGetRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TimeGetRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TimeGetRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TopAuthTokenCreateRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TopAuthTokenCreateRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TopAuthTokenRefreshRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TopAuthTokenRefreshRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TopIpoutGetRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TopIpoutGetRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TopSdkFeedbackUploadRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TopSdkFeedbackUploadRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TopSecretGetRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TopSecretGetRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TopSecretRegisterRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TopSecretRegisterRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TopatsResultGetRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TopatsResultGetRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/TopatsTaskDeleteRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/TopatsTaskDeleteRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/WirelessShareTpwdCreateRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/WirelessShareTpwdCreateRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/WirelessShareTpwdQueryRequest.py" afterPath="$PROJECT_DIR$/top/api/rest/WirelessShareTpwdQueryRequest.py" />
+      <change beforePath="$PROJECT_DIR$/top/api/rest/__init__.py" afterPath="$PROJECT_DIR$/top/api/rest/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/分类截图.png" afterPath="$PROJECT_DIR$/分类截图.png" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,16 +72,53 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="198">
-                <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="apiSpider.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apiSpider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding>
+                <marker date="1524294677860" expanded="true" signature="580:667" ph="SELECT catid... shz_tbcates" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkCoupon.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/checkCoupon.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1524289176221" expanded="true" signature="500:596" ph="SELECT `key`... shz_appkey" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="saveItems.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/saveItems.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-954">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="e#72#86#0" expanded="true" />
+                <marker date="1524294390694" expanded="true" signature="4960:5004" ph="DELETE FROM shz_item_info... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getItemsApi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getItemsApi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+              <folding>
+                <marker date="1524294677819" expanded="true" signature="1971:2067" ph="SELECT `key`... shz_appkey" />
+                <marker date="1524294677819" expanded="true" signature="2552:2602" ph="UPDATE shz_appkey... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,6 +132,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/saveItems.py" />
+        <option value="$PROJECT_DIR$/apiSpider.py" />
+        <option value="$PROJECT_DIR$/getItemsApi.py" />
       </list>
     </option>
   </component>
@@ -42,9 +144,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="841" />
-    <option name="y" value="46" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="643" />
+    <option name="y" value="74" />
     <option name="width" value="612" />
     <option name="height" value="579" />
   </component>
@@ -113,28 +215,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09322917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -152,11 +254,64 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="198">
-            <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="198">
+            <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apiSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <marker date="1524294677860" expanded="true" signature="580:667" ph="SELECT catid... shz_tbcates" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saveItems.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-954">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#72#86#0" expanded="true" />
+            <marker date="1524294390694" expanded="true" signature="4960:5004" ph="DELETE FROM shz_item_info... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getItemsApi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <marker date="1524294677819" expanded="true" signature="1971:2067" ph="SELECT `key`... shz_appkey" />
+            <marker date="1524294677819" expanded="true" signature="2552:2602" ph="UPDATE shz_appkey... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkCoupon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1524289176221" expanded="true" signature="500:596" ph="SELECT `key`... shz_appkey" />
+          </folding>
         </state>
       </provider>
     </entry>

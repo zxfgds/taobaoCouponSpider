@@ -10,7 +10,7 @@ import os
 import sys
 os.chdir(sys.path[0])
 import warnings
-# warnings.filterwarnings("ignore")
+warnings.filterwarnings("ignore")
 
 class SaveItems:
 	def __init__(self):
@@ -140,13 +140,9 @@ class SaveItems:
 					') VALUES  ' + insertOneSql
 					self.saveToMysql(sql[:-1])
 				else:
-					# print  keyword.decode ('utf-8') + u'   \036[1;36m Insert : \036[0m' + str(item['num_iid'])
 					pass
-			# with open(str(round(time.time()*1000)) +'.txt','w') as insertSqlTxt:
-			# 	insertSqlTxt.write(insertSql)
-			# 保存日志 新品
-			# Update FreeShipment/qqHd: \033[0m'
 
+			# 保存日志 新品
 			if len(itemDictList) > 0:
 				print  keyword.decode('utf-8')   + u'   \033[1;36m Insert : \033[0m' + str(len(itemDictList))
 				self.saveToMongoLog(itemDictList)
@@ -154,23 +150,19 @@ class SaveItems:
 			else:
 				pass
 		except Exception as e:
-			# pass
-			print str(e)  +  '   checkExists'
-		finally:
 			pass
+			# print str(e)  +  '   checkExists'
+
 
 	# 保存到日志
 	def saveToMongoLog(self,itemDictList):
 		conn = pymongo.MongoClient('127.0.0.1',27017)
 		db = conn.taobao
 		colLog = db.itemsLog
-		colItem = db.itemsNew
 		try:
 			colLog.insert_many(itemDictList)
-			# colItem.insert_many(itemDictList)
 		except Exception,e:
 			pass
-			# print str(e) + '   saveToMongoLog'
 	
 	
 	# 更新产品
@@ -182,7 +174,6 @@ class SaveItems:
 			colLog.update({'num_iid':num_iid},upDict)
 		except Exception,e:
 			pass
-			# print str(e) + '  updateMongoLog'
 	
 	
 	# 保存到Mysql
@@ -196,7 +187,6 @@ class SaveItems:
 			conn.commit()
 		except Exception,e:
 			pass
-			# print str(e) + ' saveToMysql'
 		finally:
 			cur.close()
 			conn.close()

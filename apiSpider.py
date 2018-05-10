@@ -53,10 +53,8 @@ class GetItems:
 					api = GetItemApi()
 					thread = threading.Thread(name = 'Thread-' + q,target = api.make_steps,args = (q,catid,start_price,end_price,step_size) )
 					threads.append(thread)
-			# print threads
 			for t in threads:
 				t.start()
-				# t.join()
 		except Exception,e:
 			print str(e) +  ' 1'
 

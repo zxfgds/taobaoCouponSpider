@@ -73,8 +73,6 @@ class GetItemApi:
             conn.close()
             
     def updateBantime(self,key,bantime):
-        # print type(key)
-        # print type(bantime)
         conn = pymysql.connect (host = cfg.dbhost, port = cfg.dbport, user = cfg.dbuser, passwd = cfg.dbpass,db = cfg.dbname, charset = 'utf8')
         cur = conn.cursor ()
         sql = 'UPDATE shz_appkey SET ban_time = %d WHERE `key` = %s ' % (int(bantime) + int(time.time()) , key)
@@ -95,15 +93,10 @@ class GetItemApi:
                 for i in range(1,101):
                     resp = self.getItemList(i,start_step,end_step,keyword,catid)
                     itemsNum = resp['tbk_dg_material_optional_response']['total_results']
-                    # print itemsNum
                     if itemsNum == 0:
-                        # print str(keyword) + str(start_step) + '---' + str(end_step)
                         break
                     else:
-                        # print keyword +   '    '+str(start_step) + '---' + str(end_step)
                         items = resp['tbk_dg_material_optional_response']['result_list']['map_data']
-                        # print len(items)
-                        # time.sleep(0.2)
                         SaveItems ().checkExists (keyword,items,catid)
                         # 检查是否还有下一页
                         if len (items) < 100:
