@@ -11,6 +11,7 @@ python 2.7,php7.1,mysql5.7
   * centos redhat 运行: yum install mongodb
 * 安装依赖
   * 程序目录下运行: pip install -r requirements.txt
+   以及 pip install  pymongo  pymysql
 
 ## 修改数据库链接
     编辑config.py 修改数据库信息
