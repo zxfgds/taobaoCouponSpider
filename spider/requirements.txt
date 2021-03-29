@@ -13,7 +13,7 @@ kivy.deps.sdl2==0.1.17
 macholib==1.9
 pefile==2017.11.5
 Pillow==5.1.0
-Pygments==2.2.0
+Pygments==2.7.4
 PyInstaller==3.3.1
 pymongo==3.6.1
 PyMySQL==0.8.1
