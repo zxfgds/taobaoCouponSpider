@@ -1,5 +1,5 @@
 altgraph==0.15
-certifi==2018.4.16
+certifi==2022.12.7
 chardet==3.0.4
 dis3==0.1.2
 docutils==0.14
